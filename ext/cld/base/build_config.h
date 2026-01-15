@@ -98,7 +98,7 @@
 #elif defined(__ARCH_PPC) || defined(__ppc__)
 #define ARCH_CPU_PPC_FAMILY 1
 #define ARCH_CPU_32_BITS 1
-#elif defined(__arm64)
+#elif defined(__arm64) || defined(__aarch64__)
 #define ARCH_CPU_ARM_FAMILY 1
 #define ARCH_CPU_ARM64 1
 #define ARCH_CPU_64_BITS 1
